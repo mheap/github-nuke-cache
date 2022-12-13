@@ -1,0 +1,18 @@
+{
+  "name": "github-nuke-cache",
+  "version": "0.0.1",
+  "description": "Delete all caches for a GitHub repo",
+  "bin": {
+    "github-nuke-cache": "bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": ["github","github actions"],
+  "author": "Michael Heap <m@michaelheap.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^19.0.5",
+    "yargs": "^17.6.2"
+  }
+}
